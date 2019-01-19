@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="399.0" style="-fx-background-color: #000000;" xmlns="http://javafx.com/javafx/8.0.141" xmlns:fx="http://javafx.com/fxml/1" fx:controller="thread.application.GifController">
+   <children>
+      <ImageView fx:id="imageview" fitHeight="396.0" fitWidth="389.0" layoutX="75.0" layoutY="78.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@video-1531642636.gif" />
+         </image>
+      </ImageView>
+      <Button layoutX="-1.0" layoutY="414.0" mnemonicParsing="false" onAction="#actiontap" prefHeight="18.0" prefWidth="553.0" style="-fx-background-color: #000000;" text="Tap to continue" textFill="#377980">
+         <font>
+            <Font name="Century Gothic" size="14.0" />
+         </font>
+      </Button>
+      <Label alignment="CENTER" layoutX="182.0" layoutY="39.0" opacity="0.88" prefHeight="105.0" prefWidth="173.0" text="SKED" textFill="#36e3a9">
+         <font>
+            <Font name="Britannic Bold" size="57.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

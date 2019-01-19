@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="182.0" prefWidth="295.0" style="-fx-background-color: #140d1d;" xmlns="http://javafx.com/javafx/8.0.141" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Label alignment="CENTER" layoutX="15.0" layoutY="99.0" prefHeight="52.0" prefWidth="266.0" text="Please Insert Exam Start Date " textFill="#dd3c20">
+         <font>
+            <Font name="Century Gothic Bold" size="18.0" />
+         </font>
+      </Label>
+      <ImageView fitHeight="92.0" fitWidth="123.0" layoutX="111.0" layoutY="31.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@Error-01.png" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>
